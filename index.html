@@ -29,12 +29,23 @@
             margin-top: 12px;
             font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;
-            color: #000000;
+            color: #0000EE; /* link rengi mavi */
+        }
+
+        .email a {
+            text-decoration: none; /* alt çizgi kaldır */
+            color: #0000EE; /* link rengi */
+        }
+
+        .email a:hover {
+            text-decoration: underline; /* hover efekti */
         }
     </style>
 </head>
 <body>
     <div class="name">Mehmet Bilal</div>
-    <div class="email">mehmetbilal@colak.be</div>
+    <div class="email">
+        <a href="mailto:mehmetbilal@colak.be">mehmetbilal@colak.be</a>
+    </div>
 </body>
 </html>
